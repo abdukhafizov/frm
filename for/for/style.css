@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 100px;
+}
+
+
+.example_form_title h2 {
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.title {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+label,
+input {
+    width: 275px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.required-tile {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4200FF;
+    display: block;
+}
+
+.all,
+.counter {
+    font-size: 16px;
+    color: black;
+}
+
+.required {
+    padding: 10px;
+    background: #FFFFFF;
+    border: 2px solid #543FD3;
+    border-radius: 4px;
+    margin-top: 6px;
+    display: block;
+}
+
+span {
+    font-family: 'Inter';
+    font-weight: 400;
+    color: #595959;
+}
+
+.secions {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.box-inp {
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #949494;
+    border-radius: 4px;
+    margin-top: 6px;
+    display: block;
+}
+
+.box-label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+    display: block;
+}
+
+.box-required {
+    margin-bottom: 35px;
+}
+
+.box {
+    margin-bottom: 82px;
+}
+
+.form_button {
+    display: flex;
+    justify-content: center;
+}
+
+.form_button1 {
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    background: #4200FF;
+    border: 2px solid #4200FF;
+    border-radius: 4px;
+    color: white;
+    padding: 21px 85px;
+}
+
+.error-icon {
+    transform: translateX(280px) translateY(-50px);
+    opacity: 0;
+}
+
+.error-icon-active {
+    transition: .5s ease;
+    opacity: 1;
+}
+
+
+input {
+    outline: none;
+}
+
+
+
+.invalid input {
+    border: 2px solid red !important;
+}
+
+.invalid label {
+    color: red !important;
+}
+
+.invalid .error-icon {
+    transition: .5s ease;
+    opacity: 1;
+}
+
+.invalid .for-need {
+    color: red !important; 
+}
+
